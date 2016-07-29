@@ -202,9 +202,19 @@
     <div class="section">
 
       <div class="row">
-        <div class="col s12 center">
+        <div class="col s12 ">
           
-          <h5>Contáctanos</h5>
+         <center> <div>
+          <a href="#modal1" class="lostpass waves-effect waves-light modal-trigger"  ><h3>contactanos</h3></a>
+        </div></center>
+          <div id="modal1" class="modal">
+            <div class="modal-content">  
+            <center><h3>Contactanos</h3></center>                                  
+              <?php 
+                require_once("contactus.html");
+               ?>
+            </div>
+          </div>
           <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
         </div>
       </div>
@@ -230,7 +240,7 @@
           <p>Barrio Laureles, Medellín</p>
       </div>
       <div  class="col s12 m4">
-        <p class="simple-image" ;">
+        <p class="simple-image">
         <img width="263" height="116" src="img/logo.png" class="attachment-full size-full" alt="logoportafolio"> </p>
      </div> 
      <div  class="col s12 m4">
@@ -298,6 +308,7 @@
       $('.ir-arriba').slideUp(300);
     }
   });
+         $('.modal-trigger').leanModal();
         $(".button-collapse").sideNav();
         $(".dropdown-button").dropdown();
       });
