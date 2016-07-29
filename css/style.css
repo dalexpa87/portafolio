@@ -17,31 +17,38 @@ src: url(../fonts/prototype/Prototype.ttf);
 }
 
 @font-face{
-font-family: Festival;
+font-family: GoodNews;
 font-style: normal;
 font-weight: normal;
-src: url(../fonts/festival_jomfruer/festivaljomfruer.ttf);
+src: url(../fonts/good_news/goodnews.otf);
 
 }
 
 h1,h2{
-  font-size:4em;
+  font-size:5em;
   font-family:Prototype ;
-  padding: 30px; 
+  padding: 20px; 
 }
 h3,h4{
-  font-family: Festival;
+  font-family: GoodNews;
+  font-size: 6em;
 }
 
-h5,h6{
-  font-size:2em;
-  font-family: Festival ;
+h5{
+  font-size:4em;
+  font-family: GoodNews;
+}
+
+h6{
+  padding: 2px;
+  font-size:3em;
+  font-family: GoodNews;
 }
 
 
       
 .aclarar{
-  BACKGROUND-COLOR:rgba(255,255,255,0.5);
+  BACKGROUND-COLOR:rgba(255,255,255,0.25);
   
 }
 nav ul a,
@@ -94,7 +101,7 @@ footer.page-footer {
   margin: 0;
 }
 
-h3{
+h5{
   margin-top: 50px;
   padding: 30px;
 }
@@ -109,6 +116,7 @@ h3{
   padding: 5%;
 }
 #p_section{
+  font-size: 17px;
   margin-left: 50px;
   margin-right: 50px;
 }
