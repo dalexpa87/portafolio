@@ -159,7 +159,7 @@
         <div class="col s12 ">
           <h3><i class="mdi-content-send brown-text"></i></h3>
          <div>
-            <a href="#modal1" class="lostpass waves-effect waves-light modal-trigger" id="contactanos">Contactanos</a>
+            <a href="#modal1" class="lostpass waves-effect waves-light modal-trigger" id="contactanos"><h3>Contactanos</h3></a>
           </div>
 
           <!-- Modal Structure -->
