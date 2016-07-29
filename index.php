@@ -204,9 +204,9 @@
       <div class="row">
         <div class="col s12 ">
           
-         <center> <div>
-          <a href="#modal1" class="lostpass waves-effect waves-light modal-trigger"  ><h3>contactanos</h3></a>
-        </div></center>
+         
+         <center><a class="waves-effect waves-light btn modal-trigger" href="#modal1">Contactanos</a></center>
+        
           <div id="modal1" class="modal">
             <div class="modal-content">  
             <center><h3>Contactanos</h3></center>                                  
@@ -286,7 +286,12 @@
       <script type="text/javascript">
         $(document).ready(function(){
 
-        
+        $('#goTop').click(
+      function()
+      {
+            $('html,body').animate({scrollTop:'0px'}, 500);return false;
+      }
+);
 
         $('.parallax').parallax();
         $('.slider').slider({
