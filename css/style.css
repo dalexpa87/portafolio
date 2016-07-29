@@ -27,7 +27,8 @@ src: url(../fonts/festival_jomfruer/festivaljomfruer.ttf);
 h1,h2{
   font-size:4em;
   font-family:Prototype ;
-  padding: 30px; 
+  padding: 30px;
+
 }
 h3,h4{
   font-family: Festival;
@@ -41,7 +42,7 @@ h5,h6{
 
       
 .aclarar{
-  BACKGROUND-COLOR:rgba(255,255,255,0.5);
+  BACKGROUND-COLOR:rgba(255,255,255,0.53);
   
 }
 nav ul a,
@@ -95,7 +96,7 @@ footer.page-footer {
 }
 
 h3{
-  margin-top: 50px;
+  margin-top: 0px;
   padding: 30px;
 }
 

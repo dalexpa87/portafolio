@@ -27,14 +27,14 @@
         <li><a href="#q">Quienes Somos?</a></li>        
         
           <ul id="dropdown1" class="dropdown-content">
-            <li><a href="#ce">Campañas Educativas</a></li>
+            <li><a href="#C">Campañas Educativas</a></li>
             <li class="divider"></li>
             <li><a href="#!">Recorridos pedagógicos y Experiencias de Ciudad</a></li>
             <li class="divider"></li>
             <li><a href="#!">Talleres Artísticos</a></li>
           </ul>
           <ul id="dropdown2" class="dropdown-content">
-            <li><a href="#ce">Campañas Educativas</a></li>
+            <li><a href="#C">Campañas Educativas</a></li>
             <li class="divider"></li>
             <li><a href="#!">Recorridos pedagógicos y Experiencias de Ciudad</a></li>
             <li class="divider"></li>
@@ -91,7 +91,7 @@
   </div>
   
   
-    <div class="section" id="q">
+    <div class="section ancla" id="q">
       <div class="row">
           <div class="col s12 m6">
             <h3 class="black-text left-align" >¿Quienes Somos? </h3>
@@ -123,7 +123,7 @@
     <div class="parallax"><img src="img/libro.jpg" alt="Unsplashed background libro"></div>
   </div>
 
-   <div class="section">
+   <div class="section" id="C">
 
       <!--   Icon Section   -->
       <div class="row">
@@ -133,7 +133,7 @@
             </div>
         <div class="col s12 m6">
 
-            <h3 class="black-text right-align" id="ce">Campañas Educativas</h3>
+            <h3 class="black-text right-align" >Campañas Educativas</h3>
             
             <p align="justify" id="p_section">A través de puestas en escena, sensibilizamos y reflexionamos sobre: Educación Ambiental, Programas de Convivencia, Literatura e Historia, Comunicación Asertiva, Identidad y Diversidad en el aula, Acoso escolar o Bullyng.</p>
           </div>
@@ -156,13 +156,38 @@
     <div class="section">
 
       <div class="row">
-        <div class="col s12 center">
+        <div class="col s12 ">
           <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Contactanos</h4>
+         <div>
+            <a href="#modal1" class="lostpass waves-effect waves-light modal-trigger" id="contactanos">Contactanos</a>
+          </div>
+
+          <!-- Modal Structure -->
+          <div id="modal1" class="modal">
+            <div class="container">
+            <center><h2>Contactanos</h2></center>
+            <?php 
+              include_once("contactus.html");
+             ?>
+          </div>
+          </div>
           <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
         </div>
       </div>
-
+      <div id="modal1" class="modal">
+          <div class="modal-content">                                    
+            <h4>Recupera tu cuenta</h4>
+            <p>Ingresa tu correo electrónico </p> 
+            <div class="input-field col s12">                                                                       
+              <input id="Correo2" type="text" class="validate">
+              <label for="Correo2">Correo electrónico</label>
+            </div>
+            <p>En breves instantes te enviaremos un enlace al correo ingresado</p>
+          </div>
+          <div class="modal-footer">
+             <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Aceptar</a>
+          </div>
+        </div>  
     </div>
   </div>
 
@@ -184,7 +209,7 @@
           <p>Barrio Laureles, Medellín</p>
       </div>
       <div  class="col s12 m4">
-        <p class="simple-image" ;">
+        <p class="simple-image">
         <img width="263" height="116" src="img/logo.png" class="attachment-full size-full" alt="logoportafolio"> </p>
      </div> 
      <div  class="col s12 m4">
@@ -230,8 +255,6 @@
       <script type="text/javascript">
         $(document).ready(function(){
 
-        
-
         $('.parallax').parallax();
         $('.slider').slider({
            height:  750,
@@ -247,11 +270,12 @@
  
         $(window).scroll(function(){
           if( $(this).scrollTop() > 0 ){
-         $('.ir-arriba').slideDown(600);
+         $('.ir-arriba').slideDown(800);
     } else {
       $('.ir-arriba').slideUp(300);
     }
   });
+        $('.modal-trigger').leanModal();
         $(".button-collapse").sideNav();
         $(".dropdown-button").dropdown();
       });
