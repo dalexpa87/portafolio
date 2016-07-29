@@ -1,0 +1,37 @@
+
+<div class="row">
+    <form class="col s12" method="POST" action="enviar_email.php">
+      <div class="row">
+        <div class="input-field col s6">
+          <input name="nombre" type="text" class="validate" required>
+          <label for="first_name">Nombre</label>
+        </div>
+        <div class="input-field col s6">
+          <input name="apellido" type="text" class="validate" required>
+          <label for="last_name">Apellido</label>
+        </div>
+      </div>
+    
+      <div class="row">
+        <div class="input-field col s12">
+          <input name="asunto" type="text" class="validate">
+          <label for="subject">Asunto</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input name="email" type="email" class="validate" required>
+          <label for="email">Correo Electrónico</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea name="mensaje" class="materialize-textarea"></textarea>
+          <label for="textarea1">Mensaje</label>
+        </div>
+      </div>
+      <a class="waves-effect waves-light btn">Enviar</a>
+    </form>
+  </div>
+        
+        
