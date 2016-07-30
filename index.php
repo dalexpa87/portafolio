@@ -38,6 +38,9 @@
             
             
           </ul>
+          <a class="modal-trigger" href="#modal1">Contactanos</a>
+
+          
           <ul id="dropdown2" class="dropdown-content">
             <li><a href="#ce" class="ancla">Campañas Educativas</a></li>
             <li class="divider"></li>
@@ -198,14 +201,14 @@
   </div>
  
 
-  <div class="container" style="background-color: #eeeeee">
+  <div class="container">
     <div class="section">
 
       <div class="row">
         <div class="col s12 ">
           
          
-         <center><a class="waves-effect waves-light btn modal-trigger" href="#modal1">Contactanos</a></center>
+         <center></center>
         
           <div id="modal1" class="modal">
             <div class="modal-content">  
