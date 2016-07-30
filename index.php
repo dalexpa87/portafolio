@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  
   <link rel="stylesheet" href="plugins/vegas/vegas.min.css">
   
   <link rel="icon" type="image/png" href="img/favicon.png"/>
@@ -24,7 +25,7 @@
 <div class="navbar-fixed">
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo"><img src="img/logo.png" style="width:160px"></a>
+      <a id="logo-container" href="#" class="brand-logo"><img src="img/logo.png" style="width:160px; margin-left: 10px"></a>
       <ul class="right hide-on-med-and-down">
         <li><a href="#">Inicio</a></li>
         <li><a href="#q" class="ancla">Quienes Somos?</a></li>        
@@ -38,9 +39,9 @@
             
             
           </ul>
-          <a class="modal-trigger" href="#modal1">Contactanos</a>
+          <a class="modal-trigger" href="#modal1">Contáctanos</a>
 
-          
+         
           <ul id="dropdown2" class="dropdown-content">
             <li><a href="#ce" class="ancla">Campañas Educativas</a></li>
             <li class="divider"></li>
@@ -190,15 +191,19 @@
             </div>
       </div>
   </div>
-  <div class="container-fluid">
-       <div class="carousel">
-    <a class="carousel-item" href="#one!"><img src="http://lorempixel.com/250/250/nature/1"></a>
-    <a class="carousel-item" href="#two!"><img src="http://lorempixel.com/250/250/nature/2"></a>
-    <a class="carousel-item" href="#three!"><img src="http://lorempixel.com/250/250/nature/3"></a>
-    <a class="carousel-item" href="#four!"><img src="http://lorempixel.com/250/250/nature/4"></a>
-    <a class="carousel-item" href="#five!"><img src="http://lorempixel.com/250/250/nature/5"></a>
+  <div class="row">
+      <div class="col s12" style="background-color:#eeeeee;">
+          <h2 class="center">EVENTOS</h2>
+           <div class="carousel">
+            <a class="carousel-item" href="#one!"><img class="materialboxed" width="250" src="img/evento.jpg"></a>
+            <a class="carousel-item" href="#two!"><img class="materialboxed" width="250" src="img/evento2.jpg"></a>
+            <a class="carousel-item" href="#three!"><img class="materialboxed" width="250" src="img/evento3.jpg"></a>
+            <a class="carousel-item" href="#four!"><img class="materialboxed" width="250" src="img/evento4.jpg"></a>
+            
+          </div>
+      </div>
   </div>
-  </div>
+  
  
 
   <div class="container">
@@ -238,20 +243,18 @@
 <a href='URL_De_Google+' style='display:scroll;position:fixed;bottom:41px;right:0px;' target='_blank'><img border='0' src='http://4.bp.blogspot.com/-idti1v7hB8w/UFN_GPFp2NI/AAAAAAAAHjA/16kXdqvAXHQ/s1600/aizumgoogle+.png' title='Seguirnos en Google+'/></a>
   </div>-->
 
-  <footer class="page-footer teal white">
-    <div class="container">
-      <div class="row ">
-          <div  class="col s12 m4">     
-           <p>Teléfono: 411 16 76</p>
-          <p >Dirección: Carrera 80 n° 37-18</p>
-          <p>Barrio Laureles, Medellín</p>
-      </div>
-      <div  class="col s12 m4">
+<div class="row ">
+    <div  class="col s12 m4">     
+            <p>Teléfono: 411 16 76</p>
+            <p >Dirección: Carrera 80 n° 37-18</p>
+            <p>Barrio Laureles, Medellín</p>
+    </div>
+      <div class="col s6 m4">
         <p class="simple-image">
         <img width="263" height="116" src="img/logo.png" class="attachment-full size-full" alt="logoportafolio"> </p>
      </div> 
-     <div  class="col s12 m4">
-          <h5>Síguenos</h5> 
+     <div class="col s6 m4">
+          <h6>Síguenos</h6> 
            <div class="social-widg-cont">   
                <a href="https://www.facebook.com/pages/Grupo-Portafolio-Cultural/310016442452318?fref=ts" target="_blank" title="Facebook">
           <img src="http://portafoliocultural.org/wp-content/themes/weddings/images/fb.jpg" alt="">
@@ -261,8 +264,7 @@
                 <a href="https://twitter.com/portacultural" target="_blank" title="Twitter">
           <img src="http://portafoliocultural.org/wp-content/themes/weddings/images/tw.jpg" alt="">
          </a>
-         
-                
+    
                 <a s href="#" target="_blank" title="Rss">
           <img src="http://portafoliocultural.org/wp-content/themes/weddings/images/rss.jpg" alt=""></a>       
            <a href="#" target="_blank" title="Google+">
@@ -294,6 +296,7 @@
         $(document).ready(function(){
 
          $('.carousel').carousel();
+         $('.materialboxed').materialbox();
 
         $('.parallax').parallax();
         $('.slider').slider({
