@@ -286,12 +286,6 @@
       <script type="text/javascript">
         $(document).ready(function(){
 
-        $('#goTop').click(
-      function()
-      {
-            $('html,body').animate({scrollTop:'0px'}, 500);return false;
-      }
-);
 
         $('.parallax').parallax();
         $('.slider').slider({
