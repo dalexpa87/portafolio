@@ -193,27 +193,26 @@
     <div class="section">
 
       <div class="row">
-        <div class="col s12">
-         <div id="modal1" class="modal">
-         <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
-
-                <div class="modal-content">
-                    <h5 class="center">Contactanos</h5>                 
-                      <?php 
-                      require_once("contactus.html");
-                      ?>
-               </div>
-    <div class="modal-footer">
-      <a href="#modal1" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
-    </div>
+        <div class="col s12 ">
+          
+         
+         <center><a class="waves-effect waves-light btn modal-trigger" href="#modal1">Contactanos</a></center>
+        
+          <div id="modal1" class="modal">
+            <div class="modal-content">  
+            <center><h3>Contactanos</h3></center>                                  
+              <?php 
+                require_once("contactus.html");
+               ?>
+            </div>
+          </div>
+        </div>
+      </div>
   </div>
 
         
             </div>
-          </div>
           
-        </div>
-      </div>
 
     
  
