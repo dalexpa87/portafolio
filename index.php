@@ -36,13 +36,9 @@
             <li><a href="#ta" class="ancla">Talleres Artísticos</a></li>
             <li class="divider"></li>
             <li><a href="#rc" class="ancla">Recorridos pedagógicos y Experiencias de Ciudad</a></li>
-             
+            
             
           </ul>
-          <a href="#rc" class="ancla">Noticias</a>
-          <a href="#rc" class="ancla">Eventos</a>
-
-
           <a class="modal-trigger" href="#modal1">Contáctanos</a>
 
          
@@ -113,7 +109,7 @@
           </div>
 
         
-            <div class="col s12 m6 center">
+            <div class="col s12 m6">
               <img src="img/1.jpg" id="imgsection">
             </div>
 
@@ -195,6 +191,23 @@
             </div>
       </div>
   </div>
+
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col s3">
+       <img class="materialboxed" width="100%" src="img/evento.jpg">
+    </div>
+    <div class="col s3">
+       <img class="materialboxed" width="100%" src="img/evento.jpg">
+    </div>
+    <div class="col s3">
+       <img class="materialboxed" width="100%" src="img/evento.jpg">
+    </div>
+    <div class="col s3">
+       <img class="materialboxed" width="100%" src="img/evento.jpg">
+    </div>
+    </div>
+  </div>
   <div class="row">
       <div class="col s12" style="background-color:#eeeeee;">
           <h2 class="center">EVENTOS</h2>
@@ -203,7 +216,6 @@
             <a class="carousel-item" href="#two!"><img class="materialboxed" width="250" src="img/evento2.jpg"></a>
             <a class="carousel-item" href="#three!"><img class="materialboxed" width="250" src="img/evento3.jpg"></a>
             <a class="carousel-item" href="#four!"><img class="materialboxed" width="250" src="img/evento4.jpg"></a>
-            
           </div>
       </div>
   </div>
