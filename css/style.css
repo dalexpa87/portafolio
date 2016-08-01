@@ -110,6 +110,7 @@ h5{
   width: 100%;
 }
 #imgsection{
+  align:center;
   width: 80%;
   float: left;
   border-radius: 50%;

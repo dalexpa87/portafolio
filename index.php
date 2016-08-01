@@ -36,9 +36,13 @@
             <li><a href="#ta" class="ancla">Talleres Artísticos</a></li>
             <li class="divider"></li>
             <li><a href="#rc" class="ancla">Recorridos pedagógicos y Experiencias de Ciudad</a></li>
-            
+             
             
           </ul>
+          <a href="#rc" class="ancla">Noticias</a>
+          <a href="#rc" class="ancla">Eventos</a>
+
+
           <a class="modal-trigger" href="#modal1">Contáctanos</a>
 
          
@@ -109,7 +113,7 @@
           </div>
 
         
-            <div class="col s12 m6">
+            <div class="col s12 m6 center">
               <img src="img/1.jpg" id="imgsection">
             </div>
 
