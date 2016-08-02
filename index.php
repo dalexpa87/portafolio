@@ -204,20 +204,40 @@
   <div class="row">
   <h5 class="center" >Entérate</h5>
     <div class="col s3">
-       <img class="materialboxed" width="100%"  data-caption="Noticia" src="img/Noticia1.jpg">
-      
+      <div class="card">
+        <div class="card-image">
+          <img src="img/Noticia1.jpg">
+          <span class="card-title">Card Title</span>
+        </div>
+      </div>
+      </div>
+    <div class="col s3">
+    <div class="card">
+        <div class="card-image">
+          <img src="img/Noticia2.jpg">
+          <span class="card-title">Card Title</span>
+        </div>
+      </div>
     </div>
     <div class="col s3">
-       <img class="materialboxed" width="100%" data-caption="Noticia" src="img/Noticia2.jpg">
+       <div class="card">
+        <div class="card-image">
+          <img src="img/Noticia3.jpg">
+          <span class="card-title">Card Title</span>
+        </div>
+      </div>
     </div>
+    
     <div class="col s3">
-       <img class="materialboxed" width="100%" data-caption="Noticia" src="img/Noticia3.jpg">
+       <div class="card">
+        <div class="card-image">
+          <img src="img/Noticia4.jpg">
+          <span class="card-title">Card Title</span>
+        </div>
+      </div>
     </div>
-    <div class="col s3">
-       <img class="materialboxed" width="100%" data-caption="Noticia" src="img/Noticia4.jpg">
     </div>
     </div>
-  </div>
   </div>
   <div class="row">
       <div class="col s12 red lighten-5" id="event">
