@@ -36,10 +36,11 @@
             <li><a href="#ta" class="ancla">Talleres Artísticos</a></li>
             <li class="divider"></li>
             <li><a href="#rc" class="ancla">Recorridos pedagógicos y Experiencias de Ciudad</a></li>
-            
-            
           </ul>
           <a class="modal-trigger" href="#modal1">Contáctanos</a>
+          <li><a href="#noti" class="ancla">Noticias</a></li>
+          <li><a href="#event" class="ancla">Eventos</a></li>
+
 
          
           <ul id="dropdown2" class="dropdown-content">
@@ -49,14 +50,21 @@
              <li class="divider"></li>
             <li><a href="#rc" class="ancla">Recorridos pedagógicos y Experiencias de Ciudad</a></li>
           </ul>
+
           <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Portafolio de Servicios<i class="material-icons right">arrow_drop_down</i></a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
         <li><a href="#">Inicio</a></li>
-        <li><a href="#Q">Quienes Somos?</a></li>        
-        <li><a href="#" class="dropdown-button" href="#!" data-activates="dropdown2">Portafolio de servicio</a></li>
+        <li><a href="#Q">Quienes Somos?</a></li>
+
+          <li><a href="#noti" class="ancla">Noticias</a></li>
+          <li><a href="#event" class="ancla">Eventos</a></li>
+        
+        <li><a href="#" class="dropdown-button" href="#!" data-activates="dropdown2">Portafolio de servicios</a></li>
+        <a class="modal-trigger" href="#modal1">Contáctanos</a>
       </ul>
+
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
@@ -191,28 +199,31 @@
             </div>
       </div>
   </div>
-
-  <div class="container-fluid">
+<div class="section" id="noti">
+  <div class="container-fluid  red darken-1">
   <div class="row">
+  <h5 class="center" >Entérate</h5>
     <div class="col s3">
-       <img class="materialboxed" width="100%" src="img/evento.jpg">
+       <img class="materialboxed" width="100%"  data-caption="Noticia" src="img/Noticia1.jpg">
+      
     </div>
     <div class="col s3">
-       <img class="materialboxed" width="100%" src="img/evento.jpg">
+       <img class="materialboxed" width="100%" data-caption="Noticia" src="img/Noticia2.jpg">
     </div>
     <div class="col s3">
-       <img class="materialboxed" width="100%" src="img/evento.jpg">
+       <img class="materialboxed" width="100%" data-caption="Noticia" src="img/Noticia3.jpg">
     </div>
     <div class="col s3">
-       <img class="materialboxed" width="100%" src="img/evento.jpg">
+       <img class="materialboxed" width="100%" data-caption="Noticia" src="img/Noticia4.jpg">
     </div>
     </div>
   </div>
+  </div>
   <div class="row">
-      <div class="col s12" style="background-color:#eeeeee;">
-          <h2 class="center">EVENTOS</h2>
+      <div class="col s12 red lighten-5" id="event">
+          <h5 class="center">Eventos</h5>
            <div class="carousel">
-            <a class="carousel-item" href="#one!"><img class="materialboxed" width="250" src="img/evento.jpg"></a>
+            <a class="carousel-item" href="#one!"><img class="materialboxed" width="250"  src="img/evento.jpg"></a>
             <a class="carousel-item" href="#two!"><img class="materialboxed" width="250" src="img/evento2.jpg"></a>
             <a class="carousel-item" href="#three!"><img class="materialboxed" width="250" src="img/evento3.jpg"></a>
             <a class="carousel-item" href="#four!"><img class="materialboxed" width="250" src="img/evento4.jpg"></a>
@@ -227,10 +238,6 @@
 
       <div class="row">
         <div class="col s12 ">
-          
-         
-         <center></center>
-        
           <div id="modal1" class="modal">
             <div class="modal-content">  
             <center><h3>Contactanos</h3></center>                                  
@@ -242,9 +249,7 @@
         </div>
       </div>
   </div>
-
-        
-            </div>
+</div>
           
 
     
