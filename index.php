@@ -153,8 +153,8 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center aclarar">
-          <h5 class="col s12 red-text light">No esperes mas para integrarte </h5>
-          <h4 class="col s12 red-text light"> y Vivir nuestra experiencia</h4>
+          <h5 class="col s12 m12 red-text light">No esperes mas para integrarte </h5>
+          <h4 class="col s12 m12 red-text light"> y Vivir nuestra experiencia</h4>
         </div>
       </div>
     </div>
@@ -178,7 +178,7 @@
       <div class="container">
         <div class="row center aclarar">
           
-          <h4 class="col s12 red-text light"> Arte, Educación y Cultura</h4>
+          <h4 class="col s12 m12 red-text light"> Arte, Educación y Cultura</h4>
         </div>
       </div>
     </div>
@@ -203,7 +203,7 @@
   <div class="container-fluid  red darken-1">
   <div class="row">
   <h5 class="center" >Entérate</h5>
-    <div class="col s3">
+    <div class="col s12 m3">
       <div class="card">
         <div class="card-image">
           <a href=""><img src="img/Noticia1.jpg">
@@ -211,7 +211,7 @@
         </div>
       </div>
       </div>
-    <div class="col s3">
+    <div class="col s12 m3">
     <div class="card">
         <div class="card-image">
           <a href=""><img src="img/Noticia2.jpg">
@@ -219,7 +219,7 @@
         </div>
       </div>
     </div>
-    <div class="col s3">
+    <div class="col s12 m3">
        <div class="card">
         <div class="card-image">
           <a href=""><img src="img/Noticia3.jpg">
@@ -228,7 +228,7 @@
       </div>
     </div>
     
-    <div class="col s3">
+    <div class="col s12 m3">
        <div class="card">
         <div class="card-image">
           <a href=""><img src="img/Noticia4.jpg">
@@ -240,7 +240,7 @@
     </div>
   </div>
   <div class="row">
-      <div class="col s12 red lighten-5" id="event">
+      <div class="col s12 m12 red lighten-5" id="event">
           <h5 class="center">Eventos</h5>
            <div class="carousel">
             <a class="carousel-item" href="#one!"><img class="materialboxed" width="250"  src="img/evento.jpg"></a>
