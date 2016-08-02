@@ -73,7 +73,7 @@
  
 
  
-
+<div class="container-fluid">
   <div class="slider ">
     <ul class="slides">
       <li>
