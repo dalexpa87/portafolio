@@ -27,13 +27,13 @@
     <div class="nav-wrapper container">
       <a id="logo-container" href="#" class="brand-logo"><img src="img/logo.png" style="width:160px; margin-left: 10px"></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Inicio</a></li>
+        <li><a href="">Inicio</a></li>
         <li><a href="#q" class="ancla">Quienes Somos?</a></li>        
         
           <ul id="dropdown1" class="dropdown-content">
             <li><a href="#ce" class="ancla">Campañas Educativas</a></li>
             <li class="divider"></li>
-            <li><a href="#ta" class="ancla">Talleres Artísticos</a></li>
+            <li><a href="#ta" class="ancla">Cursos Artísticos</a></li>
             <li class="divider"></li>
             <li><a href="#rc" class="ancla">Recorridos pedagógicos y Experiencias de Ciudad</a></li>
           </ul>
@@ -46,16 +46,16 @@
           <ul id="dropdown2" class="dropdown-content">
             <li><a href="#ce" class="ancla">Campañas Educativas</a></li>
             <li class="divider"></li>
-            <li><a href="#ta" class="ancla">Talleres Artísticos</a></li>
+            <li><a href="#ta" class="ancla">Cursos Artísticos</a></li>
              <li class="divider"></li>
             <li><a href="#rc" class="ancla">Recorridos pedagógicos y Experiencias de Ciudad</a></li>
           </ul>
 
-          <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Portafolio de Servicios<i class="material-icons right">arrow_drop_down</i></a></li>
+          <li><a class="dropdown-button" href="" data-activates="dropdown1">Portafolio de Servicios<i class="material-icons right">arrow_drop_down</i></a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Inicio</a></li>
+        <li><a href="">Inicio</a></li>
         <li><a href="#Q">Quienes Somos?</a></li>
 
           <li><a href="#noti" class="ancla">Noticias</a></li>
@@ -84,9 +84,9 @@
         </div>
       </li>
       <li>
-        <img src="img/Montaj_Art.jpg" id="img_slide"> <!-- random image -->
+        <img src="img/Talleres.jpg" id="img_slide"> <!-- random image -->
         <div class="caption left-align aclarar">
-          <h2 class="red-text"> Talleres Artísticos</h2>
+          <h2 class="red-text"> Cursos Artísticos</h2>
           <h5 class="black-text">Nuevas Experiencias</h5>
         </div>
       </li>
@@ -98,7 +98,7 @@
         </div>
       </li>
       <li>
-        <img src="img/Talleres.jpg" id="img_slide"> <!-- random image -->
+        <img src="img/Arte.jpg" id="img_slide"> <!-- random image -->
         <div class="caption right-align aclarar ">
           <h2 class="red-text" >Campañas Educativas</h2>
           <h5 class="black-text">Construímos Sociedad</h5>
@@ -129,18 +129,43 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center aclarar">
-          <h4 class="header col s12 red-text light">El Ser Humano eje de nuestras acciones</h4>
+          <h5 class="header col s12 red-text light">El Ser Humano eje de nuestras acciones</h5>
         </div>
       </div>
     </div>
     <div class="parallax"><img src="img/libro.jpg" alt="Unsplashed background libro"></div>
   </div>
+  <!--Cursos ARTISTICOS-->
+  <div class="section" id="ta">
+      <div class="row"> 
+        <div class="col s12 m6">
+            <h5 class="black-text left-align">Cursos Artísticos</h5>
+            <p align="justify" id="p_section">Bajo una metodologia activa y participativa desarrollamos los siguientes programas: Danza, Teatro, Ballet, Caricatura, Pintura, Música.</p>
+          </div>
+          <div class="col s12 m6">
+              <img src="img/ArtePx.jpg" id="imgsection">
+            </div>
+      </div>
+  </div>
 
-|<!--CAMPAÑAS EDUCATIVAS-->
+|
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center aclarar">
+          <h6 class="col s12 m12 red-text light">No esperes mas para integrarte </h6>
+          <h5 class="col s12 m12 red-text light"> y Vivir nuestra experiencia</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="img/Foto2.jpg " alt="Unsplashed background img 3"></div>
+  </div>
+  <!--CAMPAÑAS EDUCATIVAS-->
    <div class="section" id="ce">
       <div class="row">
           <div class="col s12 m6">
-              <img src="img/CampañaEducativa.jpg" id="imgsection">
+              <img src="img/ev3.jpg" id="imgsection">
           </div>
           <div class="col s12 m6">
             <h5 class="black-text right-align" id="ce">Campañas Educativas</h5>
@@ -149,30 +174,7 @@
       </div>
   </div>
 
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center aclarar">
-          <h5 class="col s12 m12 red-text light">No esperes mas para integrarte </h5>
-          <h4 class="col s12 m12 red-text light"> y Vivir nuestra experiencia</h4>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="img/Foto2.jpg " alt="Unsplashed background img 3"></div>
-  </div>
 
-<!--TALLERES ARTISTICOS-->
-  <div class="section" id="ta">
-      <div class="row"> 
-        <div class="col s12 m6">
-            <h5 class="black-text right-align">Talleres Artísticos</h5>
-            <p align="justify" id="p_section">Bajo una metodologia activa y participativa desarrollamos los siguientes programas: Danza, Teatro, Ballet, Caricatura, Pintura, Música.</p>
-          </div>
-          <div class="col s12 m6">
-              <img src="img/ArtePx.jpg" id="imgsection">
-            </div>
-      </div>
-  </div>
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
@@ -206,24 +208,24 @@
     <div class="col s12 m3">
       <div class="card">
         <div class="card-image">
-          <a href=""><img src="img/Noticia1.jpg">
-          <span width="100%" class="card-title">Card Title</span></a>
+          <a href="#noti"><img src="img/Noticia1.jpg">
+          <span width="100%" class="card-title">Texto</span></a>
         </div>
       </div>
       </div>
     <div class="col s12 m3">
     <div class="card">
         <div class="card-image">
-          <a href=""><img src="img/Noticia2.jpg">
-          <span width="100%" class="card-title">Card Title</span></a>
+          <a href="#noti"><img src="img/Noticia2.jpg">
+          <span width="100%" class="card-title">Texto</span></a>
         </div>
       </div>
     </div>
     <div class="col s12 m3">
        <div class="card">
         <div class="card-image">
-          <a href=""><img src="img/Noticia3.jpg">
-          <span width="100%" class="card-title">Card Title</span></a>
+          <a href="#noti"><img src="img/Noticia3.jpg">
+          <span width="100%" class="card-title">Texto</span></a>
         </div>
       </div>
     </div>
@@ -231,27 +233,32 @@
     <div class="col s12 m3">
        <div class="card">
         <div class="card-image">
-          <a href=""><img src="img/Noticia4.jpg">
-          <span width="100%" class="card-title">Card Title</span></a>
+          <a href="#noti"><img src="img/Noticia4.jpg">
+          <span width="100%" class="card-title">Texto</span></a>
         </div>
       </div>
     </div>
     </div>
     </div>
   </div>
+  <div class="container-fluid" id="evento">
   <div class="row">
-      <div class="col s12 m12 red lighten-5" id="event">
+      <div class="col s12 m9 red lighten-5" id="event">
           <h5 class="center">Eventos</h5>
-           <div class="carousel">
-            <a class="carousel-item" href="#one!"><img class="materialboxed" width="250"  src="img/evento.jpg"></a>
-            <a class="carousel-item" href="#two!"><img class="materialboxed" width="250" src="img/evento2.jpg"></a>
-            <a class="carousel-item" href="#three!"><img class="materialboxed" width="250" src="img/evento3.jpg"></a>
-            <a class="carousel-item" href="#four!"><img class="materialboxed" width="250" src="img/evento4.jpg"></a>
+           <div class="carousel center">
+            <a class="carousel-item" href="#evento"><img class="materialboxed" width="200" src="img/ev1.jpg"></a>
+            <a class="carousel-item" href="#evento"><img class="materialboxed" width="200" src="img/ev2.jpg"></a>
+            <a class="carousel-item" href="#evento"><img class="materialboxed" width="200" src="img/CampanaEducativa.jpg"></a>
+            <a class="carousel-item" href="#evento"><img class="materialboxed" width="200" src="img/ev4.jpg"></a>
           </div>
       </div>
-  </div>
+      
   
- 
+  <div class="col s12 m3">
+      <div class="fb-page" data-href="https://www.facebook.com/www.portafoliocultural.org/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/hardblackcomputadores/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/www.portafoliocultural.org/">Portafolio</a></blockquote></div>
+      </div>
+  </div>
+ </div>
 
   <div class="container">
     <div class="section">
@@ -284,38 +291,43 @@
 <a href='URL_De_Google+' style='display:scroll;position:fixed;bottom:41px;right:0px;' target='_blank'><img border='0' src='http://4.bp.blogspot.com/-idti1v7hB8w/UFN_GPFp2NI/AAAAAAAAHjA/16kXdqvAXHQ/s1600/aizumgoogle+.png' title='Seguirnos en Google+'/></a>
   </div>-->
 
-<div class="row ">
-    <div  class="col s12 m4">     
-            <p>Teléfono: 411 16 76</p>
-            <p >Dirección: Carrera 80 n° 37-18</p>
-            <p>Barrio Laureles, Medellín</p>
-    </div>
-      <div class="col s6 m4">
+
+
+    
+      <!--<div class="col s12 m4">
         <p class="simple-image">
-        <img width="263" height="116" src="img/logo.png" class="attachment-full size-full" alt="logoportafolio"> </p>
-     </div> 
-     <div class="col s6 m4">
+        <img width="200" src="img/logo.png" class="attachment-full size-full" alt="logoportafolio"> </p>
+     </div> -->
+     
+    <div class="row">
+     <div class="col s12 center">
           <h6>Síguenos</h6> 
            <div class="social-widg-cont">   
                <a href="https://www.facebook.com/pages/Grupo-Portafolio-Cultural/310016442452318?fref=ts" target="_blank" title="Facebook">
           <img src="http://portafoliocultural.org/wp-content/themes/weddings/images/fb.jpg" alt="">
          </a>
-         
-                
                 <a href="https://twitter.com/portacultural" target="_blank" title="Twitter">
           <img src="http://portafoliocultural.org/wp-content/themes/weddings/images/tw.jpg" alt="">
          </a>
-    
-                <a s href="#" target="_blank" title="Rss">
+                <a href="#" target="_blank" title="Rss">
           <img src="http://portafoliocultural.org/wp-content/themes/weddings/images/rss.jpg" alt=""></a>       
            <a href="#" target="_blank" title="Google+">
           <img src="http://portafoliocultural.org/wp-content/themes/weddings/images/googleplus.jpg" alt=""></a>
          <a href="https://www.facebook.com/pages/Grupo-Portafolio-Cultural/310016442452318?fref=ts" target="_blank" title="Instagram" ><img src="http://portafoliocultural.org/wp-content/themes/weddings/images/instagram.jpg" alt=""></a>
-         <a href="https://www.facebook.com/pages/Grupo-Portafolio-Cultural/310016442452318?fref=ts" target="_blank" title="Youtube"><img src="http://portafoliocultural.org/wp-content/themes/weddings/images/youtube.jpg" alt="">
+         <a href="https://www.youtube.com/channel/UCQp6nEThNPDroPre4SFwmcw" target="_blank" title="Youtube"><img src="http://portafoliocultural.org/wp-content/themes/weddings/images/youtube.jpg" alt="">
          </a>       
       </div>                      
-    </div>          
+    </div>  
+    
     </div> 
+    <div class="row">
+    <div class="col s12 center">
+       
+            <p>Teléfono: 411 16 76
+            Dirección: Carrera 80 # 37-18
+            Barrio Laureles, Medellín</p>
+    </div>        
+    </div>
 
        
         
@@ -368,6 +380,14 @@
 });
 
       </script>
+
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_CO/sdk.js#xfbml=1&version=v2.7";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
   </body>
 </html>

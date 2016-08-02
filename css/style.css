@@ -109,13 +109,23 @@ h5{
 #img_slide{
   width: 100%;
 }
+
 #imgsection{
+  display: none;
+  
+}
+@media(min-width: 600px)
+{
+  #imgsection{
+  display: block;
   align:center;
   width: 80%;
   float: left;
   border-radius: 50%;
   padding: 5%;
+  }
 }
+
 #p_section{
   font-size: 20px;
   margin-left: 50px;
@@ -143,4 +153,7 @@ li{
 }
 #formulario{
   margin:auto;
+}
+.materialboxed{
+  width: 600px;
 }
