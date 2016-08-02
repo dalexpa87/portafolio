@@ -243,6 +243,10 @@
   </div>
   <div class="container-fluid" id="evento">
   <div class="row">
+  <div class="col s12 m3">
+      <div class="fb-page" data-href="https://www.facebook.com/www.portafoliocultural.org/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/hardblackcomputadores/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/www.portafoliocultural.org/">Portafolio</a></blockquote></div>
+      </div>
+
       <div class="col s12 m9 red lighten-5" id="event">
           <h5 class="center">Eventos</h5>
            <div class="carousel center">
@@ -254,10 +258,7 @@
       </div>
       
   
-  <div class="col s12 m3">
-      <div class="fb-page" data-href="https://www.facebook.com/www.portafoliocultural.org/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/hardblackcomputadores/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/www.portafoliocultural.org/">Portafolio</a></blockquote></div>
-      </div>
-  </div>
+    </div>
  </div>
 
   <div class="container">
