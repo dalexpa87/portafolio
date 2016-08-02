@@ -207,7 +207,7 @@
       <div class="card">
         <div class="card-image">
           <img src="img/Noticia1.jpg">
-          <span class="card-title">Card Title</span>
+          <span class="card-title">Noticia 1</span>
         </div>
       </div>
       </div>
@@ -215,7 +215,7 @@
     <div class="card">
         <div class="card-image">
           <img src="img/Noticia2.jpg">
-          <span class="card-title">Card Title</span>
+          <span class="card-title">Noticia 2</span>
         </div>
       </div>
     </div>
@@ -223,7 +223,7 @@
        <div class="card">
         <div class="card-image">
           <img src="img/Noticia3.jpg">
-          <span class="card-title">Card Title</span>
+          <span class="card-title">Noticia 3</span>
         </div>
       </div>
     </div>
@@ -232,7 +232,7 @@
        <div class="card">
         <div class="card-image">
           <img src="img/Noticia4.jpg">
-          <span class="card-title">Card Title</span>
+          <span class="card-title">Noticia 4</span>
         </div>
       </div>
     </div>
