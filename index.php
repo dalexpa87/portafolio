@@ -37,7 +37,7 @@
             <li class="divider"></li>
             <li><a href="#rc" class="ancla">Recorridos pedagógicos y Experiencias de Ciudad</a></li>
           </ul>
-          <a class="modal-trigger" href="#modal1">Contáctanos</a>
+          <a class="modal-trigger" href="contactus.html">Contáctanos</a>
           <li><a href="#noti" class="ancla">Noticias</a></li>
           <li><a href="#event" class="ancla">Eventos</a></li>
 
@@ -62,7 +62,7 @@
           <li><a href="#event" class="ancla">Eventos</a></li>
         
         <li><a href="#" class="dropdown-button" href="#!" data-activates="dropdown2">Portafolio de servicios</a></li>
-        <a class="modal-trigger" href="#modal1">Contáctanos</a>
+        <a class="modal-trigger" href="contactus.html">Contáctanos</a>
       </ul>
 
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
@@ -261,7 +261,7 @@
     </div>
  </div>
 
-  <div class="container">
+  <!-- <div class="container">
     <div class="section">
 
       <div class="row">
@@ -270,14 +270,14 @@
             <div class="modal-content">  
             <center><h3>Contactanos</h3></center>                                  
               <?php 
-                require_once("contactus.html");
+                // require_once("contactus.html");
                ?>
             </div>
           </div>
         </div>
       </div>
   </div>
-</div>
+</div> -->
           
 
     
