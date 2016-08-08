@@ -73,14 +73,26 @@
  
 
  
-<div class="container-fluid">
+<div class="container-fluid s12 m6">
   <div class="slider ">
     <ul class="slides">
       <li>
         <img src="img/bycicle.jpg" id="img_slide"> <!-- random image -->
-        <div  class="caption center-align aclarar">
+        <div class="caption center-align aclarar">
           <h1 class="red-text" >Bienvenido</h1>
           <h5 class=" black-text ">Estamos seguros que hacemos la diferencia, Conócenos</h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/banner.jpg" id="img_slide"> <!-- random image -->
+        <div class="caption right-align aclarar ">
+          <h1 class="red-text" >Estamos en Inscripciones</h1>
+          <div class="container">
+          <h6>Fotografia Digital</h6>
+          <h6>Pintura</h6>
+          <h6>Baile</h6>
+          </div>
+          <h5 class="black-text">Te esperamos</h5>
         </div>
       </li>
       <li>
@@ -140,7 +152,7 @@
       <div class="row"> 
         <div class="col s12 m6">
             <h5 class="black-text left-align">Cursos Artísticos</h5>
-            <p align="justify" id="p_section">Bajo una metodologia activa y participativa desarrollamos los siguientes programas: Danza, Teatro, Ballet, Caricatura, Pintura, Música.</p>
+            <p align="justify" id="p_section">Bajo una metodologia activa y participativa desarrollamos los siguientes programas: Danza, Teatro, Ballet, Caricatura, Pintura, Música, Fotografía Digital, Expresión Oral, Dibujo y Pintura para adultos</p>
           </div>
           <div class="col s12 m6">
               <img src="img/ArtePx.jpg" id="imgsection">
@@ -209,7 +221,7 @@
       <div class="card">
         <div class="card-image">
           <a href="#noti"><img src="img/Noticia1.jpg">
-          <span width="100%" class="card-title">Texto</span></a>
+          <span width="100%" class="card-title"></span></a>
         </div>
       </div>
       </div>
@@ -217,7 +229,7 @@
     <div class="card">
         <div class="card-image">
           <a href="#noti"><img src="img/Noticia2.jpg">
-          <span width="100%" class="card-title">Texto</span></a>
+          <span width="100%" class="card-title"></span></a>
         </div>
       </div>
     </div>
@@ -225,7 +237,7 @@
        <div class="card">
         <div class="card-image">
           <a href="#noti"><img src="img/Noticia3.jpg">
-          <span width="100%" class="card-title">Texto</span></a>
+          <span width="100%" class="card-title"></span></a>
         </div>
       </div>
     </div>
@@ -234,7 +246,7 @@
        <div class="card">
         <div class="card-image">
           <a href="#noti"><img src="img/Noticia4.jpg">
-          <span width="100%" class="card-title">Texto</span></a>
+          <span width="100%" class="card-title"></span></a>
         </div>
       </div>
     </div>

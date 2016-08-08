@@ -31,7 +31,7 @@ h1,h2{
 }
 h3,h4{
   font-family: GoodNews;
-  font-size: 6em;
+
 }
 
 h5{
@@ -156,4 +156,7 @@ li{
 }
 .materialboxed{
   width: 600px;
+}
+.slider{
+  height: 50%;
 }
