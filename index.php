@@ -37,7 +37,7 @@
             <li class="divider"></li>
             <li><a href="#rc" class="ancla">Recorridos pedagógicos y Experiencias de Ciudad</a></li>
           </ul>
-          <a class="modal-trigger" href="contactus.html">Contáctanos</a>
+          <a href="contactus.html">Contáctanos</a>
           <li><a href="#noti" class="ancla">Noticias</a></li>
           <li><a href="#event" class="ancla">Eventos</a></li>
 
@@ -391,6 +391,17 @@
         }, 1000);
         return false;
 });
+
+      </script>
+       <!--Google Analytics-->
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-82641419-1', 'auto');
+        ga('send', 'pageview');
 
       </script>
 
