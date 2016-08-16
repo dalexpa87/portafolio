@@ -37,7 +37,7 @@
             <li class="divider"></li>
             <li><a href="#rc" class="ancla">Recorridos pedagógicos y Experiencias de Ciudad</a></li>
           </ul>
-          <a href="contactus.html">Contáctanos</a>
+          <a class="modal-trigger" href="contactus.html">Contáctanos</a>
           <li><a href="#noti" class="ancla">Noticias</a></li>
           <li><a href="#event" class="ancla">Eventos</a></li>
 
@@ -273,44 +273,7 @@
     </div>
  </div>
 
-  <!-- <div class="container">
-    <div class="section">
-
-      <div class="row">
-        <div class="col s12 ">
-          <div id="modal1" class="modal">
-            <div class="modal-content">  
-            <center><h3>Contactanos</h3></center>                                  
-              <?php 
-                // require_once("contactus.html");
-               ?>
-            </div>
-          </div>
-        </div>
-      </div>
-  </div>
-</div> -->
-          
-
-    
- 
-
-
   
-  <!--Redes Sociales
-  <div class="caption">
-    <a  href='https://twitter.com/portacultural' style='display:scroll;position:fixed;bottom:330px;right:0px;' target='_blank'><img border='0' src='http://2.bp.blogspot.com/-r2kTvDo3bfw/Toc-MKnFfxI/AAAAAAAAA3A/3f86LWBmR38/s1600/boton%252520twitter.png' title='Seguirnos en Twitter'/></a>
-<a href='www.facebook.com/pages/Grupo-Portafolio-Cultural/310016442452318?fref=ts' style='display:scroll;position:fixed;bottom:185px;right:0px;' target='_blank'><img border='0' src='http://1.bp.blogspot.com/-7VSvlkal0os/UFORwVAFAZI/AAAAAAAAHkg/nhegYirxh5g/s1600/boton+facebook_opt.png' title='Seguinos en Facebook'/></a>
-<a href='URL_De_Google+' style='display:scroll;position:fixed;bottom:41px;right:0px;' target='_blank'><img border='0' src='http://4.bp.blogspot.com/-idti1v7hB8w/UFN_GPFp2NI/AAAAAAAAHjA/16kXdqvAXHQ/s1600/aizumgoogle+.png' title='Seguirnos en Google+'/></a>
-  </div>-->
-
-
-
-    
-      <!--<div class="col s12 m4">
-        <p class="simple-image">
-        <img width="200" src="img/logo.png" class="attachment-full size-full" alt="logoportafolio"> </p>
-     </div> -->
      
     <div class="row">
      <div class="col s12 center">
