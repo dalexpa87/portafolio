@@ -276,13 +276,15 @@
 
       <div class="col s12 m9 red lighten-5" id="event">
           <h5 class="center">Eventos</h5>
-           <div class="carousel center">
-            <a class="carousel-item" href="#evento"><img class="materialboxed" width="200" src="img/ev1.jpg"></a>
-            <a class="carousel-item" href="#evento"><img class="materialboxed" width="200" src="img/ev2.jpg"></a>
-            <a class="carousel-item" href="#evento"><img class="materialboxed" width="200" src="img/CampanaEducativa.jpg"></a>
-            <a class="carousel-item" href="#evento"><img class="materialboxed" width="200" src="img/ev4.jpg"></a>
+           <div class="carousel carousel-slider">
+            <a class="carousel-item" href="#evento"><img src="img/ev1.jpg"></a>
+            <a class="carousel-item" href="#evento"><img src="img/ev2.jpg"></a>
+            <a class="carousel-item" href="#evento"><img src="img/CampanaEducativa.jpg"></a>
+            <a class="carousel-item" href="#evento"><img src="img/ev4.jpg"></a>
           </div>
       </div>
+
+        
       
   
     </div>
@@ -360,6 +362,7 @@
          $('.modal-trigger').leanModal();
         $(".button-collapse").sideNav();
         $(".dropdown-button").dropdown();
+        $('.carousel.carousel-slider').carousel({full_width: true});
 
         
       });
