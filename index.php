@@ -37,7 +37,7 @@
             <li class="divider"></li>
             <li><a href="#rc" class="ancla">Recorridos pedagógicos y Experiencias de Ciudad</a></li>
           </ul>
-          <a class="modal-trigger" href="contactus.html">Contáctanos</a>
+          <a class="modal-trigger" href="#modal1">Contactanos</a>
           <li><a href="#noti" class="ancla">Noticias</a></li>
           <li><a href="#event" class="ancla">Eventos</a></li>
 
@@ -57,12 +57,13 @@
       <ul id="nav-mobile" class="side-nav">
         <li><a href="">Inicio</a></li>
         <li><a href="#Q">Quienes Somos?</a></li>
+        <li><a class="modal-trigger" href="#modal1">Contáctanos</a> </li>
 
           <li><a href="#noti" class="ancla">Noticias</a></li>
           <li><a href="#event" class="ancla">Eventos</a></li>
         
         <li><a href="#" class="dropdown-button" href="#!" data-activates="dropdown2">Portafolio de servicios</a></li>
-        <a class="modal-trigger" href="contactus.html">Contáctanos</a>
+         
       </ul>
 
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
@@ -70,7 +71,20 @@
   </nav>
   </div>
   <span class="ir-arriba icon-arrow-up2"><i class="large material-icons" style="font-size: 2rem">navigation</i></span>
- 
+     <div class="section"> 
+       <div class="row"> 
+         <div class="col s12 "> 
+           <div id="modal1" class="modal"> 
+             <div class="modal-content">                                     
+               <?php  
+                 require_once("contactus.html"); 
+                ?> 
+             </div> 
+           </div> 
+         </div> 
+       </div> 
+   </div> 
+
 
  
 <div class="container-fluid s12 m6">
@@ -198,7 +212,8 @@
     </div>
     <div class="parallax"><img src="img/imgpx.jpg " alt="Unsplashed background img 3"></div>
   </div>
-
+ 
+   
      <!--RECORRIDOS PEDAGOGICOS-->
     <div class="section" id="rc">
       <div class="row">  
